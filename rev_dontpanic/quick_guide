@@ -1,0 +1,6 @@
+Main function has a call to check_flag
+local_138[i] is being initialized to the call_once function 31 times
+Look into each call_once function
+Each call_once function checks param_1 against a hex number
+Convert that hex number to a char using an ASCII table
+Reconstruct the flag from there
