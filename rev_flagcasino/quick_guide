@@ -1,0 +1,5 @@
+Main function has a call to srand and rand
+Since seed is being set first then rand is called, the output for rand is deterministic.
+
+Source:
+https://motasemhamdan.medium.com/hackthebox-flag-casino-reverse-engineering-ctf-writeups-2247bc6dafee 
